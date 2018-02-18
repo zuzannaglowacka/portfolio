@@ -1,0 +1,19 @@
+/*@import url("components/button.css");*/
+@import url("components/banner.css");
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+  color: white;
+}
+
+h1, h2 {
+  font-family: 'Gilda Display', serif;
+}
+
+h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+.text-center {
+  text-align: center;
+}

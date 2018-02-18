@@ -1,0 +1,23 @@
+/* Your banner CSS file */
+.banner {
+  background: url('images/photo-banner.jpeg.jpeg') no-repeat center center;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+/*  overflow: hidden;
+  z-index: -1;*/
+}
+
+.banner-content {
+  margin: 0 auto;
+}
+
+.banner-content p {
+  padding-bottom: 22px;
+}
+
+.banner-content h1 {
+  font-size: 45px;
+}
