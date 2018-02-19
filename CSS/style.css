@@ -7,8 +7,15 @@ body {
   color: white;
 }
 
-h1, h2 {
-  font-family: 'Gilda Display', serif;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
 
 h3 {
   font-family: Raleway, Helvetica, sans-serif;
