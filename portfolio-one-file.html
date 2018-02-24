@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>My fabulous page</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="A simple example of an HTML static page">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Cecile">
+    <meta http-equiv="refresh" content="30">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+    <style>
+      body {
+        width: 100%;
+        margin: 0;
+        background-image: url('images/dark-way.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      #sidebar {
+        position: fixed;
+        height: 100vh;
+        width: 9%;
+        background-color: white;
+        /*opacity: 0.8;*/
+      }
+
+      #sidebar li {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .menu {
+        list-style: none;
+        position: absolute;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      li {
+        margin: 0;
+        margin-top: 20%;
+      }
+
+      .logo {
+        text-decoration: none;
+        color: #76e047;
+        font-size: 22px;
+      }
+
+      .logo:hover {
+        color: #04202c;
+      }
+
+      main {
+        border: 2px solid red;
+        width: 100%;
+        height: auto;
+      }
+
+      #about, #activities, #music, #projects {
+        background-color: rgba(255,255,255,0.5);
+        width: 70%;
+        height: 200px;
+        margin: 5% 10.5% 5% 19.5%;
+        border-radius: 3px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <div class="logo">
+        <img src="" alt="">
+      </div>
+      <div class="links">
+        <ul class="menu">
+          <li><a href="#about" class="logo"><i class="fas fa-user"></i></a></li>
+          <li><a href="#activities" class="logo"><i class="fas fa-chess-knight"></i></a></li>
+          <li><a href="#music" class="logo"><i class="fas fa-music"></i></a></li>
+          <li><a href="#projects" class="logo"><i class="fas fa-briefcase"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section id="about">
+
+      </section>
+      <section id="activities">
+
+      </section>
+      <section id="music">
+
+      </section>
+      <section id="projects">
+
+      </section>
+    </main>
+  </body>
+</html>
