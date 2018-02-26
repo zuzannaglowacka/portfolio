@@ -15,9 +15,13 @@
 }
 
 .banner-content p {
-  padding-bottom: 22px;
+  padding-bottom: 15px;
 }
 
 .banner-content h1 {
-  font-size: 45px;
+  font-size: 39px;
+}
+
+.banner-content h2 {
+  font-size: 25px;
 }
