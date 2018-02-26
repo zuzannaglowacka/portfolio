@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>My fabulous page</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="A simple example of an HTML static page">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Portfolio">
+    <meta http-equiv="refresh" content="30">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie|Open+Sans:300,400,600" rel="stylesheet">
+
+
+    <style>
+      body {
+        width: 100%;
+        margin: 0;
+        background-image: url('images/dark-way.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      #sidebar {
+        position: fixed;
+        height: 100vh;
+        width: 9%;
+        background-color: white;
+        /*opacity: 0.8;*/
+      }
+
+      #sidebar li {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+
+      .menu {
+        list-style: none;
+        position: absolute;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+      li {
+        margin: 0;
+        margin-top: 20%;
+      }
+
+      .logo {
+        text-decoration: none;
+        color: #76e047;
+        font-size: 22px;
+      }
+
+      .logo:hover {
+        color: #04202c;
+      }
+
+      main {
+        border: 2px solid red;
+        width: 100%;
+        height: auto;
+      }
+
+      main .logo-name {
+        height: 70px;
+        width: 70%;
+        margin: 8% 10.5% 4% 19.5%;
+        text-align: center;
+        font-family: 'Reenie Beanie', cursive;
+        color: #04202c;
+        font-size: 87px;
+        word-spacing: 10px;
+        padding: 5px;
+      }
+
+      main h1 {
+        height: 70px;
+        width: 70%;
+        margin: 4% 10.5% 12% 19.5%;
+        text-align: center;
+        font-family: 'Reenie Beanie', cursive;
+        color: #76e047;
+        font-size: 51px;
+        word-spacing: 10px;
+        /*padding: 5px;*/
+      }
+
+      main h2 {
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 34px;
+        text-align: center;
+        color: #04202c;
+      }
+      #about,
+      #activities,
+      #music,
+      #projects {
+        background-color: rgba(255,255,255,0.5);
+        width: 80%;
+        height: 215px;
+        margin: 2.5% 5.5% 2.5% 14.5%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <div class="links">
+        <ul class="menu">
+          <li><a href="#about" class="logo"><i class="fas fa-user"></i></a></li>
+          <li><a href="#activities" class="logo"><i class="fas fa-chess-knight"></i></a></li>
+          <li><a href="#music" class="logo"><i class="fas fa-music"></i></a></li>
+          <li><a href="#projects" class="logo"><i class="fas fa-briefcase"></i></a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="two-sent">
+        <div class="logo-name">
+          Zuzanna Glowacka
+        </div>
+          <h1>I am a front end developer </h1>
+      </div>
+      <section id="about">
+        <h2>About me</h2>
+      </section>
+      <section id="activities">
+
+      </section>
+      <section id="music">
+
+      </section>
+      <section id="projects">
+
+      </section>
+    </main>
+  </body>
+</html>
