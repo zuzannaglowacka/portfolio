@@ -30,6 +30,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+       /* background-attachment: fixed;*/
       }
 
       #sidebar {
@@ -73,6 +74,7 @@
         border: 2px solid red;
         width: 100%;
         height: auto;
+        overflow: auto;
       }
 
       main .logo-name {
@@ -104,7 +106,7 @@
         font-size: 34px;
         text-align: center;
         color: #04202c;
-        padding: 25px 0 5px 0;
+        /*padding: 10px 0 5px 0;*/
       }
 
       main h3 {
@@ -112,8 +114,25 @@
         font-size: 34px;
         text-align: center;
         color: #04202c;
-        padding: 25px 0 5px 0;
+        /*padding: 10px 0 5px 0;*/
       }
+
+       main h4 {
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 34px;
+        text-align: center;
+        color: #04202c;
+        /*padding: 10px 0 5px 0;*/
+      }
+
+        main h5 {
+        font-family: 'Reenie Beanie', cursive;
+        font-size: 34px;
+        text-align: center;
+        color: #04202c;
+        /*padding: 10px 0 5px 0;*/
+      }
+
 
       #about,
       #projects,
@@ -121,9 +140,10 @@
       #activities {
         background-color: rgba(255,255,255,0.8);
         width: 80%;
-        height: 215px;
-        margin: 2.5% 5.5% 2.5% 14.5%;
+        /*height: 250px;
+*/      margin: 2.5% 5.5% 2.5% 14.5%;
         border-radius: 3px;
+        padding: 5px;
       }
 
       #about p {
@@ -133,6 +153,7 @@
         color: #04202c;
         margin: 15px 20px;
       }
+
 
     </style>
   </head>
@@ -147,6 +168,7 @@
         </ul>
       </div>
     </nav>
+
     <main>
       <div class="two-sent">
         <div class="logo-name">
@@ -162,16 +184,27 @@
           So I'd like to tell a story, just sit right there.
           And I'll tell you how I became a front end developer.</p>
       </section>
+
       <section id="projects">
         <h3>What I did</h3>
+          <table>
+            <tr>
+              <td>
+                <img src="images/sharedrun.png" content="shared.run home page pic" class="webpic">
+              </td>
+            </tr>
+
+          </table>
 
       </section>
       <section id="music">
+        <h4>What I listen to</h4>
 
       </section>
       <section id="activities">
-
+        <h5>Other activities</h5>
       </section>
-    </main>
+      </main>
+    </div>
   </body>
 </html>
