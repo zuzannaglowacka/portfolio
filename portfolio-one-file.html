@@ -30,7 +30,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-       /* background-attachment: fixed;*/
+        /*background-attachment: fixed;*/
       }
 
       #sidebar {
@@ -90,9 +90,9 @@
       }
 
       main h1 {
-        height: 70px;
+        height: 46px;
         width: 70%;
-        margin: 6% 10.5% 12% 19.5%;
+        margin: 6% 6% 12% 19.5%;
         text-align: center;
         font-family: 'Reenie Beanie', cursive;
         color: #76e047;
@@ -111,8 +111,8 @@
 
       main h3 {
         font-family: 'Reenie Beanie', cursive;
-        font-size: 34px;
-        text-align: center;
+        font-size: 28px;
+        text-align: justify;
         color: #04202c;
         /*padding: 10px 0 5px 0;*/
       }
@@ -133,27 +133,46 @@
         /*padding: 10px 0 5px 0;*/
       }
 
-
       #about,
       #projects,
       #music,
       #activities {
-        background-color: rgba(255,255,255,0.8);
+        background-color: rgba(255,255,255,0.75);
         width: 80%;
-        /*height: 250px;
-*/      margin: 2.5% 5.5% 2.5% 14.5%;
+        margin: 2.5% 5.5% 2.5% 14.5%;
         border-radius: 3px;
         padding: 5px;
       }
 
       #about p {
         font-family: 'Petita Light';
-        text-align: center;
+        text-align: justify;
         font-size: 20px;
         color: #04202c;
-        margin: 15px 20px;
+        margin: 12px 50px 20px 20px;
+        padding-bottom: 7px;
       }
 
+      img {
+        height: auto;
+        width: auto;
+        max-width: 95%;
+        border-radius: 1.5px;
+      }
+
+      table {
+        margin: 0px 18px;
+      }
+
+      td p {
+        font-family: 'Petita Light';
+        text-align: justify;
+        font-size: 18px;
+      }
+
+      tr.spaceUnder>td {
+        padding-bottom: 40px;
+      }
 
     </style>
   </head>
@@ -174,7 +193,7 @@
         <div class="logo-name">
           Zuzanna Glowacka
         </div>
-          <h1>I am a front end developer </h1>
+          <h1>I am a front end developer</h1>
       </div>
 
       <section id="about">
@@ -186,11 +205,42 @@
       </section>
 
       <section id="projects">
-        <h3>What I did</h3>
+        <h2>What I did</h2>
           <table>
-            <tr>
+            <tr class="spaceUnder">
               <td>
                 <img src="images/sharedrun.png" content="shared.run home page pic" class="webpic">
+              </td>
+              <td>
+                <h3>Shared Run</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit bibendum turpis ac lacinia. Fusce suscipit iaculis dui et malesuada. Duis et viverra ex. Cras sed ligula vel erat rhoncus hendrerit.</p>
+              </td>
+            </tr>
+            <tr class="spaceUnder">
+              <td>
+                <img src="images/vans.png" content="camper-rental home page pic" class="webpic">
+              </td>
+              <td>
+                <h3>Le Campeur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit bibendum turpis ac lacinia. Fusce suscipit iaculis dui et malesuada. Duis et viverra ex. Cras sed ligula vel erat rhoncus hendrerit.</p>
+              </td>
+            </tr>
+            <tr class="spaceUnder">
+              <td>
+                <img src="images/mister.png" content="Mister cocktail home page pic" class="webpic">
+              </td>
+              <td>
+                <h3>Mr. Cocktail</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit bibendum turpis ac lacinia. Fusce suscipit iaculis dui et malesuada. Duis et viverra ex. Cras sed ligula vel erat rhoncus hendrerit.</p>
+              </td>
+            </tr>
+            <tr class="spaceUnder">
+              <td>
+                <img src="images/profile.png" content="Profile home page pic" class="webpic">
+              </td>
+              <td>
+                <h3>Profile page</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit bibendum turpis ac lacinia. Fusce suscipit iaculis dui et malesuada. Duis et viverra ex. Cras sed ligula vel erat rhoncus hendrerit.</p>
               </td>
             </tr>
 
@@ -198,11 +248,11 @@
 
       </section>
       <section id="music">
-        <h4>What I listen to</h4>
+        <h2>What I listen to</h2>
 
       </section>
       <section id="activities">
-        <h5>Other activities</h5>
+        <h2>Other activities</h2>
       </section>
       </main>
     </div>
